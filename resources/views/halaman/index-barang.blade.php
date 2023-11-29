@@ -5,7 +5,7 @@
     <div class="col-md-1"></div>
 
     <div class="col-md-10">
-        <div class="text-center mt-3"><button class="btn btn-primary">Tambah Barang</button></div>
+        <div class="text-center mt-3"><a href="{{ route('tambahBarang') }}"><button class="btn btn-primary">Tambah Barang</button></a></div>
         <table class="table ms-5 mt-1">
 
             <thead class="table-dark">

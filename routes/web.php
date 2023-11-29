@@ -24,3 +24,7 @@ Route::get('/barang', function () {
 Route::get('/kasir', function () {
     return view('halaman.index-kasir');
 })->name('kasir');
+
+Route::get('/tambahBarang', function () {
+    return view('halaman.tambah.tambah-barang');
+})->name('tambahBarang');

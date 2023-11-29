@@ -19,10 +19,18 @@ body{
     background-color: rgb(74, 72, 72);
 }
 
+.bg-greyB{
+    background-color: rgb(120, 117, 117);
+}
+
 .f-header{
     font-family: 'Libre Baskerville',serif;
     color: white;
     font-weight: bold;
+}
+
+.ff-libre{
+    font-family: 'Libre Baskerville',serif;
 }
 
 .f-nav{
@@ -31,4 +39,10 @@ body{
 }
 .f-putih{
     color: white
+}
+.pt{
+    padding-top: 2rem;
+}
+.pb{
+    padding-bottom: 2rem;
 }
