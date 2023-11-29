@@ -25,6 +25,10 @@ Route::get('/kasir', function () {
     return view('halaman.index-kasir');
 })->name('kasir');
 
+Route::get('/tenan', function () {
+    return view('halaman.index-tenan');
+})->name('tenan');
+
 Route::get('/tambahBarang', function () {
     return view('halaman.tambah.tambah-barang');
 })->name('tambahBarang');

@@ -14,6 +14,9 @@
           <li class="nav-item">
             <a class="nav-link f-nav ms-3" href="{{ route('kasir') }}">Kasir</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link f-nav ms-3" href="{{ route('tenan') }}">Tenan</a>
+          </li>
 
           {{-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle f-putih" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
