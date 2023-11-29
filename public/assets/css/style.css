@@ -1,0 +1,27 @@
+.bg-cream{
+    background-color: rgb(213, 182, 142);
+}
+
+.bg-h{
+    background-image: url('../img/coffe.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-nav{
+    background-color: rgb(74, 72, 72);
+}
+
+.f-header{
+    font-family: 'Libre Baskerville',serif;
+    color: white;
+    font-weight: bold;
+}
+
+.f-nav{
+    color: white;
+    font-size: 1.3rem;
+}
+.f-putih{
+    color: white
+}
