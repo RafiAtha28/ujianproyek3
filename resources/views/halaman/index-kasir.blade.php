@@ -1,7 +1,7 @@
 @include('component.header')
 @include('component.navbar')
 
-<div class="container bg-cream">
+<div class="container">
     <div class="col-md-1"></div>
 
     <div class="col-md-10">
