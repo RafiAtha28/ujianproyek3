@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/barang', function () {
     return view('halaman.index-barang');
 })->name('barang');
+
+Route::get('/kasir', function () {
+    return view('halaman.index-kasir');
+})->name('kasir');

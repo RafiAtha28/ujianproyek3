@@ -12,7 +12,7 @@
             <a class="nav-link f-nav ms-3" href="{{ route('barang') }}">Barang</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link f-nav ms-3" href="#">Pricing</a>
+            <a class="nav-link f-nav ms-3" href="{{ route('kasir') }}">Kasir</a>
           </li>
 
           {{-- <li class="nav-item dropdown">

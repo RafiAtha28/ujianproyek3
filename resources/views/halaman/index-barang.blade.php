@@ -1,11 +1,12 @@
 @include('component.header')
 @include('component.navbar')
 
-<div class="container mt-4 ">
+<div class="container bg-cream">
     <div class="col-md-1"></div>
 
     <div class="col-md-10">
-        <table class="table ms-5">
+        <div class="text-center"><button class="btn btn-primary">Tambah Barang</button></div>
+        <table class="table ms-5 mt-4">
 
             <thead class="table-dark">
               <th>Kode Barang</th>
