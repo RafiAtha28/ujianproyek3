@@ -9,7 +9,7 @@
             <a class="nav-link f-nav ms-3" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link f-nav ms-3" href="#">Barang</a>
+            <a class="nav-link f-nav ms-3" href="{{ route('barang') }}">Barang</a>
           </li>
           <li class="nav-item">
             <a class="nav-link f-nav ms-3" href="#">Pricing</a>

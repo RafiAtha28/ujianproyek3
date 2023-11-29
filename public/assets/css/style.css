@@ -1,3 +1,10 @@
+body{
+    background-image: url('../img/bgbody.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .bg-cream{
     background-color: rgb(213, 182, 142);
 }
