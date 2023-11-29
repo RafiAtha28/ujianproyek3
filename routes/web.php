@@ -32,3 +32,8 @@ Route::get('/tenan', function () {
 Route::get('/tambahBarang', function () {
     return view('halaman.tambah.tambah-barang');
 })->name('tambahBarang');
+
+use App\Http\Controllers\BarangController;
+
+Route::get('/tambahBarang', [BarangController::class, 'create'])->name('tambahBarang');
+Route::post('/tambahBarang', [BarangController::class, 'store']);
